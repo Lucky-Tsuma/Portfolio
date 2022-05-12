@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Tsuma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif&family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav class ="heading" id="navbar">
+            <div class="name-avatar">
+                <div class="avatar"></div>
+                <div class="name"><h1>Lucky Tsuma</h1></div>
+                <div id="menu-icon">
+                    <ul>
+                        <em class="fa-solid fa-bars"></em>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="nav-links">
+                <a class="nav-link" href="#welcome-section">Home</a>
+                <a class="nav-link" href="#projects">Portfolio</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+        </nav>
+        <div class="spacer">
+            <!-- keeps other content below the navbar -->
+        </div>
+        <!-- Welcome section -->
+        <div id="welcome-section">
+            <div id="social-icons">
+                <div class="icon">
+                    <a id="profile-link" class="github" href="https://github.com/Lucky-Tsuma" target="_blank"><em class="fab fa-github"></em></a> 
+                </div>
+                <div class="icon">
+                    <a id="linkedin" href="https://www.linkedin.com/in/lucky-tsuma" target="_blank"><em class="fab fa-linkedin-in"></em></a>
+                </div>
+                <div class="icon">
+                    <a id="twitter" href="https://twitter.com/TsumahLucky" target="_blank"><em class="fa-brands fa-twitter"></em></a>
+                </div>  
+                <div class="icon">
+                    <a id="cv" href="#"><em class="fa-solid fa-download"></em></a>
+                </div>              
+            </div>
+            <div id="intro">
+                <h1 class="heading" id="hey">Hey there...
+                I'm Lucky</h1>
+                <h2>I'm a software developer</h2>
+                <p>My journey through tech began in the year 2017 when I joined Kibabii University to pursue a degree program in computer science. I graduated in March 2022.
+                    <br /><br />
+                I have always been interested in technology and especially software development. During my campus years, I did projects in mobile development(Android).
+                    <br />
+                It was during my internship at <a id="link-jitu" href="https://thejitu.com/" target="_blank"><strong>The Jitu </strong></a>that I did my transition to web having learnt javaScript (React and Node.js). I furthered my knowledge in web development by taking certifications on freecodecamp (See about section).
+                    <br /><br />
+                I am currently working as a freelance web developer and working on side projects to enhance my knowledge. I am eager to learn and I take every opportunity that comes along.
+                </p>
+
+                <a id="link-contact-me" href="#contact">
+                    <button class="btn-contact-me">CONTACT ME</button>
+                </a>
+            </div>
+            <!-- twinkle star animation in this div -->
+            <div class="div-stars">
+                <div class="row first">
+                    <div class="stars fourfive"></div>
+                    <div class="stars medium three"></div>
+                    <div class="stars static"></div>
+                </div>
+                <div class="row">
+                    <div class="stars zeronine"></div>
+                    <div class="stars big five"></div>
+                    <div class="stars zerosix"></div>
+                </div>
+                <div class="row third">
+                    <div class="stars medium onefive"></div>
+                    <div class="stars static"></div>
+                    <div class="stars medium threefive"></div>
+                </div>
+                <div class="row fourth">
+                    <div class="stars big four"></div>
+                    <div class="stars one"></div>
+                    <div class="stars zerothree"></div>
+                </div>
+            </div>
+            <!-- twinkle star animation div ends -->
+        </div>
+
+
+        <!-- Projects -->
+        <div id="projects">
+            <div><h2 class="section-header heading">My recent work</h2><hr /></div>
+            <div class="project-tile">
+                <!-- Populated using js -->
+            </div>
+        </div>
+
+        <!-- About section -->
+        <div id="about">
+            <div class="div-skills">
+                <div class="skills">
+                    <p class="section-header heading">Language</p>
+                    <p>Javascript</p>
+                    <p>HTML/CSS</p>
+                    <p>Kotlin</p>
+                    <p>SQL</p>
+                </div>
+                <div class="skills">
+                    <p class="section-header heading">Frameworks</p>
+                    <p>Bootstrap</p>
+                    <p>React</p>
+                    <p>Express.js</p>
+                </div>
+                <div class="skills">
+                    <p class="section-header heading">Skills</p>
+                    <p>Git</p>
+                    <p>Linux</p>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="certification" id="certifications">
+                    <p class="section-header heading"><em class="fas fa-certificate"></em>Certifications</p>
+                    <!-- populate certifications here from js file -->
+                </div>
+
+                <div class="university">
+                    <p class="section-header heading"><em class="fas fa-graduation-cap"></em>University</p>
+                    <p><em><strong>Kibabii University - Bungoma, Kenya</strong></em></p>
+                    <p>Period: September 2017 - August 2021</p>
+                    <p>Certificate: <strong>BSc. Computer Science</strong></p>
+                    <p>Graduated: March 2022</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact section -->
+        <footer id="contact">
+            <div class="contact-text-and-form">
+                <div class="contact-me-text">
+                    <p>I'm always interested in hearing about new projects. If you'd like to chat, please get in touch.</p>
+                </div>
+                <div class="contact-me-form">
+                    <form id="contact-me-form" name="contact" data-netlify="true">
+                        <input type="hidden" name="subject" value="My Portfolio Site Notification">
+                        <input type="text" id="firstname" name="firstname" placeholder="Firstname" required />
+                
+                        <input type="text" id="lastname" name="lastname" placeholder="Lastname" required />
+                
+                        <input type="email" id="email" name="email" placeholder="Email address" required />
+                
+                        <textarea placeholder="Enter text here..." id="message" name="massage" rows="5" maxlength="200"
+                            required></textarea>
+                
+                        <br />
+                        <button id="submit" type="submit"><em class="fa-solid fa-message"></em> Get in touch</button>
+                    </form>
+                </div>
+            </div>
+        
+            <div class="copyright">
+                <p>&copy; Lucky Tsuma 2022</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/9ca402f56f.js" crossorigin="anonymous"></script>
+</body>
+</html>
