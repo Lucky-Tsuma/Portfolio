@@ -1,4 +1,4 @@
-# Portfolio_Site
+# Personal portfolio
 You can visit the actual page [here](https://luckytsuma.netlify.app/)
 
 Apart from being one of the projects done in completion of FreeCodeCamp's Responsive Web Design certification, this project as well serves as my personal portfolio website.
