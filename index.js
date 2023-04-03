@@ -1,6 +1,6 @@
-const menuIcon = document.getElementById('menu-icon');
-const introSection = document.getElementById('intro');
-const links = document.querySelectorAll('.nav-link');
+const menuIcon = document.getElementById('menu-icon')
+const introSection = document.getElementById('intro')
+const links = document.querySelectorAll('.nav-link')
 let navDisplay = 'none';
 
 const projects = [
